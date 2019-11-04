@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name"> pokemon</string>
+    <string name="submit">Submit</string>
+    <string name="play">play</string>
+    <string name="todo">TODO</string>
+    <string name="good_enough">Good Enough</string>
+    <string name="capture_a_pokemon">Capture a Pokemon</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_mytab">Mytab</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="Welcome">WELCOME</string>
+</resources>

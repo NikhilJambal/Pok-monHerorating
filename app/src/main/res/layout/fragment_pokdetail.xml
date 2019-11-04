@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/c"
+    tools:context=".pokdetail">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/bgrate"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:background="@android:color/holo_orange_dark"
+            android:layout_marginTop="30dp"
+            android:text="WELCOME"
+            android:textSize="50dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_marginLeft="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- TODO: Update blank fragment layout -->
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="250dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="60dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="@android:color/background_light"
+
+        android:text="This  is Simple Frag Click List  Thank you" />
+
+
+</RelativeLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgapp"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+
+
+    <ImageView
+        android:id="@+id/charplace"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="2dp"
+        android:src="@drawable/one"
+        android:contentDescription="@string/todo" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/bgrate"
+        android:orientation="vertical">
+
+
+
+
+
+        <TextView
+            android:id="@+id/titlerate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/capture_a_pokemon"
+            android:textAlignment="center"
+            android:textColor="@color/colorblack"
+            android:textSize="20sp" />
+
+
+
+
+        <RatingBar
+            android:id="@+id/ratestar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="65dp"
+            android:numStars="5"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="10dp"
+            android:rating="5"
+            android:theme="@style/RatingBar"
+            android:stepSize="1" />
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/good_enough"
+            android:textAlignment="center"
+            android:textColor="@color/colorblack"
+            android:textSize="32sp" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="529dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/button"
+        android:text="@string/play"
+        android:textAllCaps="false"
+        android:textColor="@color/colorblack"
+        android:textSize="22sp"/>
+
+
+</RelativeLayout>
